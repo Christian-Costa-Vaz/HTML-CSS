@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Bakbak';
+    src: url('BakbakOne-Regular.ttf');
+    font-weight: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color1:#54cbe6;
+    --color2:#0DAACC;
+}
+body{
+    background-image: linear-gradient(to top , var(--color1) , var(--color2));
+}
+main >.imagem{
+    width: 100%;
+}
+main > .cont{
+    float: right;
+    margin-left: 10px;
+}
+main p{
+    margin-right: 500px;
+    font-size: 2em;
+    background-color: black;
+}
+header  h2{
+    font-family: 'Bakbak';
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 2.8px;
+}
+header h1{
+    text-align: center;
+    font-size: 5em;
+}
+header p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+} 
+main{
+    background-color: white;
+}
+main > h1{
+    margin-left: 50px;
+}
+div.paragrafo{
+    font-size: 1.4em;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+    margin-right: 500px;
+}
+img{
+    width: 400px;
+}
+div.imagem{
+    display: block;
+    text-align: right;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+aside h1{
+    margin-left: 50px;
+    font-size: 3em;
+
+}
+aside  p{
+    font-size:25px;
+    margin-right: 200px;
+    margin-left: 30px;
+    text-align: justify;
+    
+}

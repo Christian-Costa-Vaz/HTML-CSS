@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Em HTML é utilizado id e em CSS é usado # (só pode ser utilizado um elemento)
+   Tudo que é class em HTML em CSS é . (pode vários elemmentos)
+*/
+
+*{
+    text-align: justify;
+}
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+h1{
+    color: #1e402f;
+}
+h1#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+
+}
+h2{
+    color: #3c805e;
+}
+.basico{
+    color: #e7e315;
+}
+.intermediario{
+    color: #80793c;
+}
+.avançado{
+    color: #803c3c;
+
+}
+.destaque{
+    background-color: rgba(197, 197, 96, 0.439);
+}

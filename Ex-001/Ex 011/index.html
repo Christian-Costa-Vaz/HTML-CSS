@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir o site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens e vídeos/fotomP.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens e vídeos/fotoM.png" type="image/png">
+        <img src="imagens e  vídeos/fotoG.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Aúdio</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5</p>
+    <audio preload="metadata"autoplay controls> <!--A tag aúdio é utilizada para quando for adicionar um aúdio no site-->
+        <source src="Músicas/linkin-park.mp3" type="audio/mpeg"> <!--Utilizar para quando for colocar o arquivo em mp3-->
+        <source src="Músicas/linkin-park.mp3" type="audio/ogg"> <!--Utilizar formato OGG para quando o navegador não abrir em mp3-->
+        <source src="Músicas/linkin-park.mp3" type="audio/wav"> <!--Utilizar formato WAV para quando nem mp3 nem ogg abrirem no navegador--> <!--OBS: utiliza-las em minúsculas--> <!--Formato wav é muito pesado, então é preferivel utilizar os formatos mp3 e ogg que são mais leves-->
+        <p>Infelizmente seu navegador não consegue reproduzir seu aúdio</p>
+        <a href="Músicas/linkin-park.mp3">Clique aqui para baixar o MP3</a>
+    </audio>
+</body>
+</html>
